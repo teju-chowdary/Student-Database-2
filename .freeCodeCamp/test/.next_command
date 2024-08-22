@@ -74,3 +74,4 @@ PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only
 psql --username=freecodecamp --dbname=postgres
 ./student_info.sh
 ./student_info.sh
+./student_info.sh
