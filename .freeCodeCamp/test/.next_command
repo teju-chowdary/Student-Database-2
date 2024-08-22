@@ -83,3 +83,16 @@ psql --username=freecodecamp --dbname=students
 ./student_info.sh
 ./student_info.sh
 ./student_info.sh
+git init
+git commit -m "first commit"
+git add .
+git branch -M main
+git remote add origin https://github.com/teju-chowdary/Student-Database-2.git
+git remote set-url origin https://github.com/teju-chowdary/Student-Database-2.git
+git push -u origin main
+git status
+git add .
+git remote set-url origin https://github.com/teju-chowdary/Student-Database-2.git
+git push -u origin main
+ls --color=auto
+git add .
