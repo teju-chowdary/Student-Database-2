@@ -69,3 +69,6 @@ which bash
 ./student_info.sh
 ./student_info.sh
 ./student_info.sh
+PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only -c"
+\d
+psql --username=freecodecamp --dbname=postgres
